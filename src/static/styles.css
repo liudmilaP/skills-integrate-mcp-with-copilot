@@ -149,6 +149,13 @@ section h3 {
   font-size: 16px;
 }
 
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid #3949ab;
+  outline-offset: 2px;
+}
+
 button {
   background-color: #1a237e;
   color: white;
@@ -190,6 +197,10 @@ button:hover {
 
 .hidden {
   display: none;
+}
+
+#auth-status {
+  margin-bottom: 0;
 }
 
 footer {
